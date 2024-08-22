@@ -3,7 +3,7 @@
 <template>
     <body>
         <div >
-        <img class="img1" src="@/img/a23da41c-c6cd-401c-8740-5ee2a3489696.webp" alt="">
+        <img class="img1" src="@/img/imgarceau.jpg" alt="">
         <div class="overlay">
             <h1>L'Eden</h1>
             <p>Venez vivre une expérience de bien-être unique ! </p>
@@ -77,7 +77,7 @@
             <img src="@/img/decouverte.jpg" alt="SOIN DÉCOUVERTE">
             <div>
                 <h3>SOIN DÉCOUVERTE </h3>
-                <p class="price">45 MINUTES/60€</p>
+                <p class="price">45 MINUTES/69€</p>
                 <p>Offrez-vous un moment de détente absolue avec notre Soin Découverte. Ce soin comprend un massage relaxant conçu pour vous aider à évacuer le stress accumulé et favoriser une meilleure circulation sanguine. Laissez nos thérapeutes expérimentés manipuler et détendre vos muscles grâce à des techniques de massage éprouvées qui ciblent les zones de tension. Idéal pour se ressourcer et retrouver un équilibre corps-esprit, ce massage est parfait pour ceux qui cherchent à échapper à l'agitation quotidienne et à investir dans leur bien-être.</p>
                 
             </div>
@@ -122,7 +122,7 @@
             <p><strong>Nos Horaires :</strong></p>
             <div>Mardi au Samedi 9h30-18h00</div>
             <div>Dimanche et Lundi fermé</div>
-            <p><strong>Mobile :</strong> 075555555</p>
+            <p><strong>Mobile :</strong> 07 68 06 14 09</p>
             <p>ledenheadspa@gmail.com</p>
         </div>
         <div class="social-media">
@@ -422,17 +422,17 @@ body {
     color: #4a4a4a;
     margin: 0;
     padding: 0;
-    font-size: 1em; /* Ajuste la taille générale du texte pour une meilleure lisibilité */
+    font-size: 0.8em; /* Ajuste la taille générale du texte pour une meilleure lisibilité */
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 0.9em;
     line-height: 1.6;
 }
 
 h2 {
     text-align: center;
-    font-size: 2em; /* Réduit la taille des titres sur mobile */
+    font-size: 1.6em; /* Réduit la taille des titres sur mobile */
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
 }
@@ -469,11 +469,11 @@ h2 {
 /* Ajustements pour le texte */
 .overlay h1 {
     margin-bottom: 20px; /* Espace entre le h1 et le paragraphe */
-    font-size: 2.5rem; /* Taille du titre ajustée pour le mobile */
+    font-size: 2.2rem; /* Taille du titre ajustée pour le mobile */
 }
 
 .overlay p {
-    font-size: 1.2rem; /* Taille du texte ajustée pour le mobile */
+    font-size: 1rem; /* Taille du texte ajustée pour le mobile */
 }
 
 .logo {
@@ -493,7 +493,7 @@ h2 {
 }
 
 .overlay2 h1 {
-    font-size: 1.2rem; /* Réduit la taille du texte si nécessaire */
+    font-size: 1rem; /* Réduit la taille du texte si nécessaire */
     font-weight: 400;
     color: #d8963a; /* ajustez la couleur du texte si nécessaire */
 }
@@ -562,7 +562,7 @@ section {
 }
 
 #labels div p {
-    font-size: 1.3em; /* Ajuste la taille du texte */
+    font-size: 1em; /* Ajuste la taille du texte */
     font-family: 'Cormorant Garamond', serif;
     text-align: center; /* Centre le texte */
 }
@@ -604,7 +604,7 @@ section {
 }
 
 .massage h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -638,7 +638,7 @@ footer {
     text-align: center;
     font-family: Arial, sans-serif;
     border-top: 1px solid #e7e7e7;
-    font-size: 0.9em; /* Réduit la taille du texte dans le footer */
+    font-size: 0.7em; /* Réduit la taille du texte dans le footer */
 }
 
 .contact-info {
