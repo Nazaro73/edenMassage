@@ -124,6 +124,7 @@
             <div>Dimanche et Lundi fermé</div>
             <p><strong>Mobile :</strong> 07 68 06 14 09</p>
             <p>ledenheadspa@gmail.com</p>
+            <p>UNIQUEMENT SUR RDV</p>
         </div>
         <div class="social-media">
             <p>Suivez-nous sur Instagram ! </p>
