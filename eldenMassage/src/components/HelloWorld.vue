@@ -112,7 +112,7 @@
     <section id="reservation">
         <h2>Réservez votre moment de détente</h2>
         <p>Veuillez utiliser le calendrier ci-dessous pour réserver votre créneau.</p>
-        <div class="googleagenda"><iframe class="calendar" src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Wddn3i0WLbxD_yOb8lg0ABV9dj3ROGxNiV2gbdCZ5R7M2dMAOlfQeufzq8hS61OD_sPiroXCh" style="border: 0" width="800" height="800" frameborder="0" scrolling="no"></iframe></div>
+        <div class="googleagenda"><iframe class="calendar" src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Wddn3i0WLbxD_yOb8lg0ABV9dj3ROGxNiV2gbdCZ5R7M2dMAOlfQeufzq8hS61OD_sPiroXCh" style="border-width:0" width="800" height="600" frameborder="0"  ></iframe></div>
     </section>
 
     <footer>
@@ -355,9 +355,17 @@ section {
 
 
 .googleagenda {
-    display: flex;
-    justify-content: center;
-    
+    position: relative;
+  height: 0;
+  width: auto;
+  padding-bottom: 50%;
+}
+.calendar {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .price {
@@ -628,10 +636,7 @@ section {
     justify-content: center;
 }
 
-.calendar {
-    width: 100%; /* La réservation prend toute la largeur */
-    height: auto; /* Ajuste la hauteur automatiquement */
-}
+
 
 footer {
     background-color: #e3d7c5; /* Couleur du texte, ajustez selon votre design */
