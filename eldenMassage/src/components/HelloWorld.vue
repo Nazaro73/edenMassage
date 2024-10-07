@@ -136,6 +136,34 @@
   
 </template>
 
+<script>
+// Ajout du support de vue-meta
+export default {
+  metaInfo: {
+    title: 'Eden Headspa à Chambéry - Détente et Bien-être',
+    meta: [
+      {
+        name: 'description',
+        content: 'Découvrez Eden, le Headspa à Chambéry dédié à la détente et au bien-être.'
+      },
+      {
+        name: 'keywords',
+        content: 'Eden, Headspa, Chambéry, détente, bien-être, relaxation'
+      },
+      {
+        property: 'og:title',
+        content: 'Eden Headspa à Chambéry - Détente et Bien-être'
+      },
+      {
+        property: 'og:description',
+        content: 'Une expérience unique de relaxation à Chambéry chez Eden Headspa.'
+      }
+    ]
+  }
+};
+</script>
+
+
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 

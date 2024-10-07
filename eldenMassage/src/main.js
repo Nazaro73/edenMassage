@@ -1,6 +1,13 @@
+import { createApp } from 'vue';
+import App from './App.vue';
 
+// Importer la gestion des balises meta via vueuse/head
+import { createHead } from '@vueuse/head';
 
-import { createApp } from 'vue'
-import App from './App.vue'
+const app = createApp(App);
 
-createApp(App).mount('#app')
+// Utiliser @vueuse/head pour gérer les balises meta
+const head = createHead();
+app.use(head);
+
+app.mount('#app');
