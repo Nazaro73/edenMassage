@@ -125,7 +125,7 @@
             <p><strong>Mobile :</strong> 07 68 06 14 09</p>
             <p>ledenheadspa@gmail.com</p>
             <p>UNIQUEMENT SUR RDV</p>
-            <p>RESERVE AUX FEMMES ET ENFANTS</p>
+            <p>RESERVE UNIQUEMENT AUX FEMMES ET ENFANTS</p>
         </div>
         <div class="social-media">
             <p>Suivez-nous sur Instagram ! </p>
