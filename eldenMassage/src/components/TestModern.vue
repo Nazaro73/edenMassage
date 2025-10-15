@@ -952,8 +952,8 @@ section {
   background: linear-gradient(135deg, #c6a68e, #d8c3a5);
   color: #fff;
   border-radius: 50px;
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 400;
   margin-bottom: 1.5rem;
 }
 
