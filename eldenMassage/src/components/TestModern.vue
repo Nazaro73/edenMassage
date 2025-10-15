@@ -411,6 +411,37 @@ onUnmounted(() => {
   z-index: 1;
 }
 
+@media (min-width: 769px) {
+  .hero-background {
+    background-image: linear-gradient(135deg, rgba(198, 166, 142, 0.6) 0%, rgba(216, 195, 165, 0.6) 50%, rgba(227, 215, 197, 0.6) 100%), url('@/img/salon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .logo-container {
+    background: #2c2c2c !important;
+  }
+
+  .hero-title {
+    color: #2c2c2c !important;
+    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.3) !important;
+  }
+
+  .hero-subtitle {
+    color: #2c2c2c !important;
+  }
+
+  .cta-button {
+    background: #2c2c2c !important;
+    color: #c6a68e !important;
+  }
+
+  .cta-button:hover {
+    background: #1a1a1a !important;
+  }
+}
+
 .hero-overlay {
   position: absolute;
   top: 0;
