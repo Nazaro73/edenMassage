@@ -298,7 +298,7 @@
         </div>
         <div class="footer-section">
           <h4>Horaires</h4>
-          <p>Mardi au Samedi : 9h30-18h00</p>
+          <p>Mardi au Samedi : 9h30-11h30 et 13h45-16h</p>
           <p>Dimanche et Lundi : Fermé</p>
           <p class="highlight">UNIQUEMENT SUR RDV</p>
           <p class="highlight">RÉSERVÉ AUX FEMMES ET ENFANTS</p>
@@ -1027,38 +1027,38 @@ section {
   display: flex;
   gap: 2rem;
   padding-left: 1rem;
-  animation: slideReviews 15s linear infinite;
+  animation: slideReviews 25s linear infinite;
 }
 
 @keyframes slideReviews {
   0% {
     transform: translateX(0);
   }
-  10% {
+  18% {
     transform: translateX(0);
   }
   20% {
     transform: translateX(calc(-1 * (700px + 2rem)));
   }
-  30% {
+  38% {
     transform: translateX(calc(-1 * (700px + 2rem)));
   }
   40% {
     transform: translateX(calc(-2 * (700px + 2rem)));
   }
-  50% {
+  58% {
     transform: translateX(calc(-2 * (700px + 2rem)));
   }
   60% {
     transform: translateX(calc(-3 * (700px + 2rem)));
   }
-  70% {
+  78% {
     transform: translateX(calc(-3 * (700px + 2rem)));
   }
   80% {
     transform: translateX(calc(-4 * (700px + 2rem)));
   }
-  90% {
+  98% {
     transform: translateX(calc(-4 * (700px + 2rem)));
   }
   100% {
@@ -1363,31 +1363,31 @@ section {
     0% {
       transform: translateX(0);
     }
-    10% {
+    18% {
       transform: translateX(0);
     }
     20% {
       transform: translateX(calc(-1 * (500px + 2rem)));
     }
-    30% {
+    38% {
       transform: translateX(calc(-1 * (500px + 2rem)));
     }
     40% {
       transform: translateX(calc(-2 * (500px + 2rem)));
     }
-    50% {
+    58% {
       transform: translateX(calc(-2 * (500px + 2rem)));
     }
     60% {
       transform: translateX(calc(-3 * (500px + 2rem)));
     }
-    70% {
+    78% {
       transform: translateX(calc(-3 * (500px + 2rem)));
     }
     80% {
       transform: translateX(calc(-4 * (500px + 2rem)));
     }
-    90% {
+    98% {
       transform: translateX(calc(-4 * (500px + 2rem)));
     }
     100% {
@@ -1473,31 +1473,31 @@ section {
     0% {
       transform: translateX(0);
     }
-    10% {
+    18% {
       transform: translateX(0);
     }
     20% {
       transform: translateX(calc(-1 * (320px + 2rem)));
     }
-    30% {
+    38% {
       transform: translateX(calc(-1 * (320px + 2rem)));
     }
     40% {
       transform: translateX(calc(-2 * (320px + 2rem)));
     }
-    50% {
+    58% {
       transform: translateX(calc(-2 * (320px + 2rem)));
     }
     60% {
       transform: translateX(calc(-3 * (320px + 2rem)));
     }
-    70% {
+    78% {
       transform: translateX(calc(-3 * (320px + 2rem)));
     }
     80% {
       transform: translateX(calc(-4 * (320px + 2rem)));
     }
-    90% {
+    98% {
       transform: translateX(calc(-4 * (320px + 2rem)));
     }
     100% {

@@ -120,7 +120,7 @@
             <p><strong>Institut :</strong></p>
             <div>92 quai Charles Ravet, 73000 Chambéry</div>
             <p><strong>Nos Horaires :</strong></p>
-            <div>Mardi au Samedi 9h30-18h00</div>
+            <div>Mardi au Samedi 9h30-11h30 et 13h45-16h</div>
             <div>Dimanche et Lundi fermé</div>
             <p><strong>Mobile :</strong> 07 68 06 14 09</p>
             <p>ledenheadspa@gmail.com</p>
