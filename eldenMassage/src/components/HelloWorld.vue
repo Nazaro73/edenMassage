@@ -1,8 +1,8 @@
 
 
 <template>
-    <body>
-        <div >
+    <div class="page-container">
+        <div class="hero-container">
         <img class="img1" src="@/img/imgarceau.jpg" alt="">
         <div class="overlay">
             <h1>L'Eden</h1>
@@ -12,7 +12,7 @@
             <img class="logo"  src="@/img/logo.png" alt="">
             <h1>Eden Headspa</h1>
         </div>
-        
+
     </div>
     
     <div id="start">
@@ -133,8 +133,7 @@
             
         </div>
     </footer>
-    </body>
-  
+  </div>
 </template>
 
 <script>
@@ -172,12 +171,16 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 /* Réinitialisation de quelques styles par défaut et typographie générale */
-body {
+.page-container {
     font-family: 'Lora', serif;
     background-color:#ebe6de;
     color: #4a4a4a;
     margin: 0;
     padding: 0px;
+}
+
+.hero-container {
+    position: relative;
 }
 
 p {
@@ -454,7 +457,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
-body {
+.page-container {
     font-family: 'Lora', serif;
     background-color: #ebe6de;
     color: #4a4a4a;
