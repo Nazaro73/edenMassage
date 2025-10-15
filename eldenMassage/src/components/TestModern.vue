@@ -1307,6 +1307,10 @@ section {
 }
 
 @media (max-width: 768px) {
+  .logo-container {
+    background: #2c2c2c !important;
+  }
+
   .hero-title {
     font-size: 2.5rem;
   }
@@ -1420,6 +1424,12 @@ section {
 }
 
 @media (max-width: 480px) {
+  .logo-container {
+    background: #2c2c2c !important;
+    padding: 0.1rem 1rem;
+    gap: 0.6rem;
+  }
+
   .hero-title {
     font-size: 2rem;
   }
@@ -1435,11 +1445,6 @@ section {
 
   .brand-name {
     font-size: 1.1rem;
-  }
-
-  .logo-container {
-    padding: 0.1rem 1rem;
-    gap: 0.6rem;
   }
 
   .cta-button {
