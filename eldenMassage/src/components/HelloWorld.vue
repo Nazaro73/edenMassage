@@ -147,7 +147,7 @@
           <div class="prestation-content">
             <h3>Soin « Un temps pour Soie »</h3>
             <div class="price-tag">129€</div>
-            <p>Offrez-vous une échappée belle de pure détente avec notre Soin « Un Temps pour Soie », un traitement de 90 minutes qui allie luxe et soin personnalisé. Ce soin débute par une analyse approfondie de votre cuir chevelu.</p>
+            <p>Offrez-vous une échappée belle de pure détente avec notre Soin Un Temps pour Soie, un traitement de 90 minutes qui allie luxe et soin personnalisé. Ce soin débute par une analyse approfondie de votre cuir chevelu.</p>
             <button class="book-button" @click="scrollToSection('reservation')">Réserver</button>
           </div>
         </div>
@@ -866,6 +866,8 @@ section {
 
 .prestation-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background: #fff;
   border-radius: 20px;
   overflow: hidden;
@@ -936,18 +938,23 @@ section {
 }
 
 .prestation-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 2rem;
 }
 
 .prestation-content h3 {
   font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #2c2c2c;
   margin-bottom: 1rem;
+  line-height: 1.3;
 }
 
 .price-tag {
   display: inline-block;
+  align-self: flex-start;
   padding: 0.5rem 1.5rem;
   background: linear-gradient(135deg, #c6a68e, #d8c3a5);
   color: #fff;
@@ -958,6 +965,7 @@ section {
 }
 
 .prestation-content p {
+  flex: 1;
   font-size: 1rem;
   line-height: 1.7;
   color: #666;
