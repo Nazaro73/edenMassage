@@ -123,7 +123,7 @@
         <div class="prestation-card featured">
           <div class="badge">Populaire</div>
           <div class="prestation-image-wrapper">
-            <img src="@/img/premium.jpg" alt="Soin Premium">
+            <img src="@/img/sds.jpg" alt="Soin Premium">
             <div class="prestation-overlay">
               <span class="duration">60 minutes</span>
             </div>
@@ -139,7 +139,7 @@
         <!-- Soin Un Temps pour Soie -->
         <div class="prestation-card">
           <div class="prestation-image-wrapper">
-            <img src="@/img/sds.jpg" alt="Soin Un temps pour Soie">
+            <img src="@/img/premium.jpg" alt="Soin Un temps pour Soie">
             <div class="prestation-overlay">
               <span class="duration">90 minutes</span>
             </div>
